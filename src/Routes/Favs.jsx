@@ -1,16 +1,16 @@
 import React from "react";
 import Card from "../Components/Card";
-
-//Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
+import { useCharStates } from "../Context/Context";
 
 const Favs = () => {
 
+  const {state} = useCharStates()
+
   return (
     <>
-      <h1>Dentists Favs</h1>
+      <h1>Favs</h1>
       <div className="card-grid">
-        {/* este componente debe consumir los destacados del localStorage */}
-        {/* Deberan renderizar una Card por cada uno de ellos */}
+      {state.favs.map(fav => <Card char={fav} key={fav.id}/>)}
       </div>
     </>
   );

@@ -1,0 +1,63 @@
+.dark {
+    background-color: #0d0912;
+    color: white;
+}
+
+.dark a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(136, 136, 136);
+}
+
+.dark .navbar {
+
+    background-color: #172443;
+    color: aliceblue;
+}
+
+.dark h3 {
+    color: aliceblue;
+}
+
+.dark a .nav-h3 {
+    color: white
+}
+
+
+.dark form > input {
+    background-color: #0d0912;
+    color: white;
+    border: 1px solid #172443;
+}
+
+.dark form > input::placeholder {
+    color: rgb(194, 194, 194);
+}
+
+.dark form > button {
+    background-color: #172443;
+    color: white
+}
+
+
+.dark .card {
+    background-color: #525252;
+    border: none;
+}
+.dark.favBtn{
+    padding: 10px;
+    border-radius: 20px;
+    color:#525252;
+    margin-bottom: 4%;
+    border: none;
+    width: 50px;
+    cursor: pointer;
+    }
+
+
+
+.dark footer {
+    background-color: #172443;
+}
